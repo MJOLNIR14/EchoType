@@ -1,0 +1,444 @@
+{
+  "test_types": {
+    "short": {
+      "description": "Quick assessment - 20 questions",
+      "questions_per_dimension": 5
+    },
+    "full": {
+      "description": "Comprehensive analysis - 60 questions", 
+      "questions_per_dimension": 15
+    }
+  },
+  
+  "I-E": [
+    {
+      "id": "ie1",
+      "question": "I feel energized after spending time with large groups of people",
+      "dimension": "I-E",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "ie2",
+      "question": "I prefer deep one-on-one conversations over group discussions",
+      "dimension": "I-E",
+      "reverse": true,
+      "category": "short"
+    },
+    {
+      "id": "ie3",
+      "question": "I often need time alone to recharge after social events",
+      "dimension": "I-E",
+      "reverse": true,
+      "category": "short"
+    },
+    {
+      "id": "ie4",
+      "question": "I enjoy being the center of attention at parties",
+      "dimension": "I-E",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "ie5",
+      "question": "I think out loud and process ideas by talking to others",
+      "dimension": "I-E",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "ie6",
+      "question": "I prefer working in a quiet environment with minimal interruptions",
+      "dimension": "I-E",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ie7",
+      "question": "I feel comfortable introducing myself to strangers at events",
+      "dimension": "I-E",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ie8",
+      "question": "I carefully consider my thoughts before sharing them with others",
+      "dimension": "I-E",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ie9",
+      "question": "I thrive in environments with lots of activity and interaction",
+      "dimension": "I-E",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ie10",
+      "question": "I prefer texting or messaging over phone calls",
+      "dimension": "I-E",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ie11",
+      "question": "I actively seek out social gatherings and events",
+      "dimension": "I-E",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ie12",
+      "question": "I need significant alone time to feel balanced",
+      "dimension": "I-E",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ie13",
+      "question": "I enjoy meeting new people and expanding my social circle",
+      "dimension": "I-E",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ie14",
+      "question": "I prefer observing rather than actively participating in group activities",
+      "dimension": "I-E",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ie15",
+      "question": "I feel most alive when surrounded by people and activity",
+      "dimension": "I-E",
+      "reverse": false,
+      "category": "full"
+    }
+  ],
+  
+  "N-S": [
+    {
+      "id": "ns1",
+      "question": "I focus more on possibilities and future potential than present reality",
+      "dimension": "N-S",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "ns2",
+      "question": "I prefer concrete facts and data over abstract theories",
+      "dimension": "N-S",
+      "reverse": true,
+      "category": "short"
+    },
+    {
+      "id": "ns3",
+      "question": "I often get lost in imaginative thoughts and daydreams",
+      "dimension": "N-S",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "ns4",
+      "question": "I trust my intuition and gut feelings when making decisions",
+      "dimension": "N-S",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "ns5",
+      "question": "I prefer practical, hands-on learning over theoretical concepts",
+      "dimension": "N-S",
+      "reverse": true,
+      "category": "short"
+    },
+    {
+      "id": "ns6",
+      "question": "I enjoy exploring abstract ideas and philosophical questions",
+      "dimension": "N-S",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ns7",
+      "question": "I focus on what is rather than what could be",
+      "dimension": "N-S",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ns8",
+      "question": "I look for patterns and connections between seemingly unrelated things",
+      "dimension": "N-S",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ns9",
+      "question": "I prefer step-by-step instructions over figuring things out myself",
+      "dimension": "N-S",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ns10",
+      "question": "I think about how things might change or evolve in the future",
+      "dimension": "N-S",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ns11",
+      "question": "I value proven methods and traditional approaches",
+      "dimension": "N-S",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ns12",
+      "question": "I enjoy brainstorming innovative solutions to problems",
+      "dimension": "N-S",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ns13",
+      "question": "I notice and remember specific details about my environment",
+      "dimension": "N-S",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "ns14",
+      "question": "I prefer reading between the lines over taking things at face value",
+      "dimension": "N-S",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "ns15",
+      "question": "I focus on what has worked in the past",
+      "dimension": "N-S",
+      "reverse": true,
+      "category": "full"
+    }
+  ],
+  
+  "T-F": [
+    {
+      "id": "tf1",
+      "question": "I make decisions based primarily on logic and objective analysis",
+      "dimension": "T-F",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "tf2",
+      "question": "I consider how decisions will affect people's feelings",
+      "dimension": "T-F",
+      "reverse": true,
+      "category": "short"
+    },
+    {
+      "id": "tf3",
+      "question": "I value truth and accuracy over maintaining harmony",
+      "dimension": "T-F",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "tf4",
+      "question": "I'm naturally empathetic and attuned to others' emotions",
+      "dimension": "T-F",
+      "reverse": true,
+      "category": "short"
+    },
+    {
+      "id": "tf5",
+      "question": "I prefer to remain emotionally detached when solving problems",
+      "dimension": "T-F",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "tf6",
+      "question": "I prioritize fairness and justice in my decisions",
+      "dimension": "T-F",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "tf7",
+      "question": "I make efforts to ensure everyone feels included and valued",
+      "dimension": "T-F",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "tf8",
+      "question": "I can easily separate my emotions from rational thinking",
+      "dimension": "T-F",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "tf9",
+      "question": "I find it important to maintain positive relationships even during disagreements",
+      "dimension": "T-F",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "tf10",
+      "question": "I value competence and efficiency over emotional considerations",
+      "dimension": "T-F",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "tf11",
+      "question": "I naturally consider the emotional impact of my words",
+      "dimension": "T-F",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "tf12",
+      "question": "I prefer direct, honest feedback even if it might hurt feelings",
+      "dimension": "T-F",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "tf13",
+      "question": "I go out of my way to help others feel comfortable",
+      "dimension": "T-F",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "tf14",
+      "question": "I analyze situations objectively without letting emotions cloud judgment",
+      "dimension": "T-F",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "tf15",
+      "question": "I make decisions based on personal values and the greater good",
+      "dimension": "T-F",
+      "reverse": true,
+      "category": "full"
+    }
+  ],
+  
+  "J-P": [
+    {
+      "id": "jp1",
+      "question": "I prefer to have a structured plan before starting any project",
+      "dimension": "J-P",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "jp2",
+      "question": "I enjoy keeping my options open and adapting as I go",
+      "dimension": "J-P",
+      "reverse": true,
+      "category": "short"
+    },
+    {
+      "id": "jp3",
+      "question": "I feel stressed when things are unorganized or unplanned",
+      "dimension": "J-P",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "jp4",
+      "question": "I thrive in spontaneous, unpredictable situations",
+      "dimension": "J-P",
+      "reverse": true,
+      "category": "short"
+    },
+    {
+      "id": "jp5",
+      "question": "I prefer to complete tasks well before deadlines",
+      "dimension": "J-P",
+      "reverse": false,
+      "category": "short"
+    },
+    {
+      "id": "jp6",
+      "question": "I maintain organized lists and schedules for my activities",
+      "dimension": "J-P",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "jp7",
+      "question": "I work best under pressure and close to deadlines",
+      "dimension": "J-P",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "jp8",
+      "question": "I like having clear rules and structure in my environment",
+      "dimension": "J-P",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "jp9",
+      "question": "I prefer to explore multiple options before making final decisions",
+      "dimension": "J-P",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "jp10",
+      "question": "I feel satisfied when I can check items off my to-do list",
+      "dimension": "J-P",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "jp11",
+      "question": "I enjoy the flexibility of changing plans at the last minute",
+      "dimension": "J-P",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "jp12",
+      "question": "I believe proper planning prevents poor performance",
+      "dimension": "J-P",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "jp13",
+      "question": "I prefer to start projects and see where they lead naturally",
+      "dimension": "J-P",
+      "reverse": true,
+      "category": "full"
+    },
+    {
+      "id": "jp14",
+      "question": "I like things settled and decided rather than open-ended",
+      "dimension": "J-P",
+      "reverse": false,
+      "category": "full"
+    },
+    {
+      "id": "jp15",
+      "question": "I embrace chaos and uncertainty as opportunities",
+      "dimension": "J-P",
+      "reverse": true,
+      "category": "full"
+    }
+  ]
+}

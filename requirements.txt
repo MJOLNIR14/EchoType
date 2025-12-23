@@ -1,0 +1,49 @@
+flask==3.0.0
+flask-cors==4.0.0
+pandas==2.1.4
+numpy==1.26.2
+scikit-learn==1.3.2
+nltk==3.8.1
+```
+
+---
+
+### **2. .gitignore**
+Create this to avoid pushing unnecessary files:
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Data files (too large)
+*.csv
+mbti_1.csv
+
+# Model files (generated)
+*.pkl
+*.pickle
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment
+.env
